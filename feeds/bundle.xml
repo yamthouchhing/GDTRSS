@@ -4,6 +4,48 @@
     <title>GDT Bundle</title>
     <link>https://yamthouchhing.github.io/GDTRSS/feeds/bundle.xml</link>
     <description>Tax Info Update</description>
-    <lastBuildDate>Fri, 14 Aug 2026 09:05:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:07:02 GMT</lastBuildDate>
+    <item>
+      <title>[GDT] Facebook</title>
+      <link>https://web.facebook.com/cambodiataxation</link>
+      <description>Latest content from https://web.facebook.com/cambodiataxation</description>
+      <pubDate>Fri, 14 Aug 2026 09:06:59 GMT</pubDate>
+      <guid>https://web.facebook.com/cambodiataxation#202608140906</guid>
+    </item>
+    <item>
+      <title>[ACAR] Facebook</title>
+      <link>https://web.facebook.com/acarcambodia</link>
+      <description>Latest content from https://web.facebook.com/acarcambodia</description>
+      <pubDate>Fri, 14 Aug 2026 09:06:59 GMT</pubDate>
+      <guid>https://web.facebook.com/acarcambodia#202608140906</guid>
+    </item>
+    <item>
+      <title>[NTS] Facebook</title>
+      <link>https://web.facebook.com/NationalTaxSchool</link>
+      <description>Latest content from https://web.facebook.com/NationalTaxSchool</description>
+      <pubDate>Fri, 14 Aug 2026 09:07:00 GMT</pubDate>
+      <guid>https://web.facebook.com/NationalTaxSchool#202608140907</guid>
+    </item>
+    <item>
+      <title>[MEF] Facebook</title>
+      <link>https://web.facebook.com/ministry.economy.finance</link>
+      <description>Latest content from https://web.facebook.com/ministry.economy.finance</description>
+      <pubDate>Fri, 14 Aug 2026 09:07:00 GMT</pubDate>
+      <guid>https://web.facebook.com/ministry.economy.finance#202608140907</guid>
+    </item>
+    <item>
+      <title>[TAFTAC] Facebook</title>
+      <link>https://web.facebook.com/taftacpage</link>
+      <description>Latest content from https://web.facebook.com/taftacpage</description>
+      <pubDate>Fri, 14 Aug 2026 09:07:01 GMT</pubDate>
+      <guid>https://web.facebook.com/taftacpage#202608140907</guid>
+    </item>
+    <item>
+      <title>[KICPAA] Facebook</title>
+      <link>https://web.facebook.com/kicpaaofficial</link>
+      <description>Latest content from https://web.facebook.com/kicpaaofficial</description>
+      <pubDate>Fri, 14 Aug 2026 09:07:02 GMT</pubDate>
+      <guid>https://web.facebook.com/kicpaaofficial#202608140907</guid>
+    </item>
   </channel>
 </rss>

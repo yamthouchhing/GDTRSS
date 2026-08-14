@@ -4,6 +4,13 @@
     <title>MEF RSS Feed</title>
     <link>https://web.facebook.com/ministry.economy.finance</link>
     <description>RSS feed for MEF</description>
-    <lastBuildDate>Fri, 14 Aug 2026 09:05:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:07:00 GMT</lastBuildDate>
+    <item>
+      <title>[MEF] Facebook</title>
+      <link>https://web.facebook.com/ministry.economy.finance</link>
+      <description>Latest content from https://web.facebook.com/ministry.economy.finance</description>
+      <pubDate>Fri, 14 Aug 2026 09:07:00 GMT</pubDate>
+      <guid>https://web.facebook.com/ministry.economy.finance#202608140907</guid>
+    </item>
   </channel>
 </rss>
