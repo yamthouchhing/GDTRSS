@@ -1,0 +1,36 @@
+name: Update RSS Feeds & Push to Make.com
+
+on:
+  schedule:
+    # Runs every 120 minutes (2 hours), based on Update(MN) = 120 in BundleLink sheet
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl requests beautifulsoup4
+
+      - name: Run RSS Updater & Send Notification
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+        run: python rss_engine.py --update
+
+      - name: Commit and Push Updated Feeds
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/ GDT_RSS_Feed_Gen.xlsx
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated RSS feeds" && git push)
